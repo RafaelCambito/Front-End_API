@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 110vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e0396;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #19f805;
+    position: relative;
+    bottom: 10vh;
+}
+h2 {
+    font-size: 23px;
+    color: #f7f1f1;
+    margin: 20px 0;
+}
+
+.busca {
+    display: flex;
+    width: 300px;
+}
+.busca #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 0;
+}
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    background-color: #03ad4a;
+    color: #070000;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.busca button:hover {
+    background-color: #3cf82b;
+}
+
+.resultado {
+    width: 300px;
+    display: none;
+    border: 1px dotted #19f805;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #070000;
+}
+
+.titulo {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+.info .temp {
+    flex: 1;
+    text-align: center;
+}
+.info .vento {
+    flex: 1;
+    text-align: center;
+}
+.tempTitulo,
+.ventoTitulo {
+    color: #03ad4a;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.tempInfo,
+.ventoInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tempInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b80e0e;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #b80e0e;
+    transform-origin: left;
+}
+
+.aviso {
+    color: #FFF;
+    padding-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
+
+
+img
+{
+    border-radius: 20px 20px 20px 20px;
+}
